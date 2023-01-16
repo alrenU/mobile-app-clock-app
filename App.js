@@ -8,25 +8,18 @@ import {
   Pressable,
   Image,
 } from 'react-native';
+import {NavigationContainer} from '@react-navigation/native';
+import Tabs from './screens/Tabs';
 
 const App = () => {
   return (
-    <View style={styles.container}>
-      <View>
-        <StatusBar backgroundColor="#f7b733" barStyle="dark-content" />
-      </View>
-      <View>
-        <Text>It Works!</Text>
-      </View>
-    </View>
+    <>
+      <StatusBar backgroundColor="#fff" barStyle="dark-content" />
+      <NavigationContainer>
+        <Tabs />
+      </NavigationContainer>
+    </>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#f7b733'
-  }
-});
 
 export default App;
