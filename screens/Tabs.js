@@ -25,10 +25,10 @@ const Tabs = () => {
                 style={{
                   width: 25,
                   height: 25,
-                  tintColor: focused ? '#110d03' : '#3b3b37'
+                  tintColor: focused ? '#110d03' : '#898980'
                 }}
               />
-              <Text style={{color: focused ? '#110d03' : '#3b3b37', fontSize: 12}}>Alarm</Text>
+              <Text style={{color: focused ? '#110d03' : '#898980', fontSize: 12}}>Alarm</Text>
             </View>
           ),
         }}
@@ -45,10 +45,10 @@ const Tabs = () => {
                 style={{
                   width: 25,
                   height: 25,
-                  tintColor: focused ? '#110d03' : '#3b3b37',
+                  tintColor: focused ? '#110d03' : '#898980',
                 }}
               />
-              <Text style={{color: focused ? '#110d03' : '#3b3b37', fontSize: 12}}>Hourglass</Text>
+              <Text style={{color: focused ? '#110d03' : '#898980', fontSize: 12}}>Hourglass</Text>
             </View>
           ),
         }}
@@ -65,10 +65,10 @@ const Tabs = () => {
                 style={{
                   width: 25,
                   height: 25,
-                  tintColor: focused ? '#110d03' : '#3b3b37',
+                  tintColor: focused ? '#110d03' : '#898980',
                 }}
               />
-              <Text style={{color: focused ? '#110d03' : '#3b3b37', fontSize: 12}}>Timer</Text>
+              <Text style={{color: focused ? '#110d03' : '#898980', fontSize: 12}}>Timer</Text>
             </View>
           ),
         }}
@@ -85,10 +85,10 @@ const Tabs = () => {
                 style={{
                   width: 25,
                   height: 25,
-                  tintColor: focused ? '#110d03' : '#3b3b37',
+                  tintColor: focused ? '#110d03' : '#898980',
                 }}
               />
-              <Text style={{color: focused ? '#110d03' : '#3b3b37', fontSize: 12}}>Clock</Text>
+              <Text style={{color: focused ? '#110d03' : '#898980', fontSize: 12}}>Clock</Text>
             </View>
           ),
         }}

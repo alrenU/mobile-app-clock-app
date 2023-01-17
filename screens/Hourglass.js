@@ -92,7 +92,7 @@ const Hourglass = () => {
           placeholder="0"
           keyboardType="numeric"
           onChangeText={number => setHourStateFunc(number)}
-          value={hourState}
+          value={hourState.toString()}
         />
         <Text style={{fontSize: 40}}>:</Text>
         <TextInput
@@ -100,7 +100,7 @@ const Hourglass = () => {
           placeholder="0"
           keyboardType="numeric"
           onChangeText={number => setMinutesStateFunc(number)}
-          value={minutesState}
+          value={minutesState.toString()}
         />
         <Text style={{fontSize: 40}}>:</Text>
         <TextInput
@@ -108,7 +108,7 @@ const Hourglass = () => {
           placeholder="0"
           keyboardType="numeric"
           onChangeText={number => setSecondsStateFunc(number)}
-          value={secondsState}
+          value={secondsState.toString()}
         />
         <Text style={{fontSize: 40}}>:</Text>
         <TextInput
@@ -116,7 +116,7 @@ const Hourglass = () => {
           placeholder="0"
           keyboardType="numeric"
           onChangeText={number => setMillisecondsStateFunc(number)}
-          value={millisecondsState}
+          value={millisecondsState.toString()}
         />
       </View>
       <Pressable
